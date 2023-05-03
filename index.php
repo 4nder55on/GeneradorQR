@@ -9,7 +9,7 @@ if (isset($_GET['d'])) {
     QRcode::png($_GET['d']);
 }
 else{
-    echo 'Debe Enviar la variable d';
+    echo 'Debe Enviar la variable d para poder generar su qr';
 }
 
 
